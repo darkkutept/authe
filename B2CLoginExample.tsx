@@ -67,7 +67,7 @@ export default class B2CLoginExample extends React.Component<any, IState> {
         'Content-Type': 'application/json; charset=utf-8',
         Prefer:
           ' odata.include-annotations=OData.Community.Display.V1.FormattedValue',
-      },,
+      },
     };
     axios
       .get(
